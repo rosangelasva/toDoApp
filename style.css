@@ -36,7 +36,7 @@ h1{
 }
 
 #taskInput {
-    flex: 1; /* O input vai crescer para ocupar o espaço disponível */
+    flex: 1; 
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ddd;
