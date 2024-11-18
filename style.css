@@ -1,0 +1,86 @@
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: radial-gradient(circle, #ADD8E6, #9bb2c0, #7d92b8, #347c93);
+    
+}
+
+.task-manager{
+    text-align: center; 
+    margin-top: 20px;
+}
+.task-maneger-style{
+    display: inline-block; 
+    margin-top: 10px; 
+    text-align: left;
+   
+}
+h1{
+    color: white;
+}
+#addTask {
+    padding: 5px 15px;
+    font-size: 14px; 
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px; 
+}
+
+#taskInput {
+    flex: 1; /* O input vai crescer para ocupar o espaço disponível */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+}
+
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+
+.taskItem {
+    background-color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editarBtn, .removerBtn {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-left: 5px;
+   
+}
+
+.editarBtn {
+    background-color: #007bff;
+    color: white;
+
+
+}
+
+.removerBtn {
+    background-color: #ee1329;
+    color: white;
+}
+
+.editarBtn:hover, .removerBtn:hover {
+    opacity: 0.8;
+}
